@@ -33,10 +33,13 @@
 			<form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
 				<label for="my-name">Full Name<span class="required">*</span></label>
 				<input type="text" name="my-name" id="my-name" required>
+
 				<label for="my-email">Email<span class="required">*</span></label>
 				<input type="email" name="my-email" id="my-email" required>
+
 				<label for="my-phone">Phone<span class="required">*</span></label>
 				<input type="tel" name="my-phone" id="my-phone" required>
+				
 				<fieldset>
 					<legend>Preferred Method of Contact</legend>
 					<input type="radio" name="contact-pref" id="pref-email" checked>
@@ -44,6 +47,7 @@
 					<input type="radio" name="contact-pref" id="pref-phone">
 					<label for="pref-phone">Phone</label>
 				</fieldset>
+				
 				<label for="my-state">State<span class="required">*</span></label>
 				<div id="arrow">
 					<select name="my-state" id="my-state" required>
